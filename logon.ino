@@ -21,9 +21,6 @@ void loop() {
     delay(1000);
     Keyboard.print(Button_1);
     delay(1000);
-    Keyboard.press(KEY_RETURN);
-    Keyboard.releaseAll();
-    delay(1000);
   }
 
   if (Button2 == LOW) {
